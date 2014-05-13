@@ -2,7 +2,7 @@
 
 class Linguist
   detect: (path, cb) ->
-    exec path.join(__dirname, "../bin/linguist.rb #{path}", (err, stdout, stderr) ->
+    exec path.join(__dirname, '../bin', 'linguist.rb') + " #{path}", (err, stdout, stderr) ->
       return cb err if err
 
       try
