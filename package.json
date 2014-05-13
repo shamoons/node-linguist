@@ -1,0 +1,27 @@
+{
+  "name": "node-linguist",
+  "version": "0.0.1",
+  "description": "A node.js wrapper for the Github Linguist project",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "coffee --bare --compile --output lib/index.js src/*.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shamoons/node-linguist.git"
+  },
+  "keywords": [
+    "git",
+    "linguist",
+    "wrapper"
+  ],
+  "author": "Shamoon Siddiqui",
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/shamoons/node-linguist/issues"
+  },
+  "homepage": "https://github.com/shamoons/node-linguist",
+  "dependencies": {
+    "child-daemon": "0.0.2"
+  }
+}
