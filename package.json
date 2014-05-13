@@ -1,10 +1,10 @@
 {
   "name": "node-linguist",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A node.js wrapper for the Github Linguist project",
   "main": "index.js",
   "scripts": {
-    "prepublish": "coffee --bare --compile --output lib/index.js src/*.coffee"
+    "prepublish": "coffee --bare --compile --output lib src/*.coffee"
   },
   "repository": {
     "type": "git",
