@@ -1,4 +1,5 @@
 {exec} = require 'child_process'
+path = require 'path'
 
 class Linguist
   detect: (path, cb) ->
