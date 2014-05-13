@@ -1,6 +1,6 @@
 {
   "name": "node-linguist",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A node.js wrapper for the Github Linguist project",
   "main": "index.js",
   "scripts": {

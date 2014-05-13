@@ -2,8 +2,8 @@
 path = require 'path'
 
 class Linguist
-  detect: (path, cb) ->
-    exec path.join(__dirname, '../bin', 'linguist.rb') + " #{path}", (err, stdout, stderr) ->
+  detect: (filePath, cb) ->
+    exec path.join(__dirname, '../bin', 'linguist.rb') + " #{filePath}", (err, stdout, stderr) ->
       return cb err if err
 
       try
