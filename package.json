@@ -1,6 +1,6 @@
 {
   "name": "node-linguist",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "A node.js wrapper for the Github Linguist project",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,7 @@
   "bugs": {
     "url": "https://github.com/shamoons/node-linguist/issues"
   },
+  "main": "lib/index.js",
   "homepage": "https://github.com/shamoons/node-linguist",
   "dependencies": {
     "child-daemon": "0.0.2"
